@@ -1,0 +1,453 @@
+#sobre {
+  background-image: url('foto1.jpeg');
+  background-size: cover; /* Faz com que a imagem cubra toda a área */
+  background-position: center; /* Centraliza a imagem */
+  background-attachment: fixed; /* Faz a imagem de fundo não rolar ao descer a página */
+  padding: 3rem 0;
+  text-align: center;
+  color: white; /* Ajuste a cor do texto se necessário */
+}
+
+
+/* Resetando alguns estilos padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('foto1.jpeg'); /* Coloque o caminho para a imagem */
+  background-size: cover; /* Faz a imagem cobrir toda a área */
+  background-position: center; /* Centraliza a imagem */
+  background-attachment: fixed; /* A imagem de fundo permanece fixa enquanto o conteúdo rola */
+  color: #333;
+  line-height: 1.6;
+  height: 100%;
+}
+
+header {
+  background-color: rgba(0, 255, 94, 0.8); /* Cor de fundo com opacidade para destacar o texto */
+  color: white;
+  padding: 1rem 0;
+}
+
+header .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffdd57;
+}
+
+/* Estilizando a seção sobre */
+#sobre {
+  padding: 3rem 0;
+  text-align: center;
+  color: white; /* Texto branco para se destacar na imagem */
+  z-index: 2;
+}
+
+#sobre .container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#sobre h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+#sobre p {
+  font-size: 1.2rem;
+  color: #f4f4f9; /* Cor mais suave para o texto */
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Estilizando a frase chave */
+.frase-chave {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00ff0d;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: rgba(241, 248, 233, 0.8); /* Fundo suave com opacidade */
+  border-radius: 8px;
+  display: inline-block;
+}
+
+/* Estilizando o footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+footer .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+
+/* Resetando alguns estilos padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Estilizando o header */
+header {
+  background-color: #00ff2f;
+  color: white;
+  padding: 1rem 0;
+}
+
+header .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffdd57;
+}
+
+/* Estilizando a seção sobre */
+#sobre {
+  background-color: #ffffff;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+#sobre .container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#sobre h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+#sobre p {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Estilizando a frase de impacto */
+.frase {
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #00ff2a;
+  margin-top: 2rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #f1f8e9;
+  border-left: 5px solid #4CAF50;
+  border-radius: 10px;
+}
+
+/* Estilizando a frase chave */
+.frase-chave {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4CAF50;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f1f8e9;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+/* Estilizando o footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+
+/* Resetando alguns estilos padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Estilizando o header */
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1rem 0;
+}
+
+header .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffdd57;
+}
+
+/* Estilizando a seção sobre */
+#sobre {
+  background-color: #ffffff;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+#sobre .container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#sobre h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+#sobre p {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Estilizando a frase de impacto */
+.frase {
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #4CAF50;
+  margin-top: 2rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #f1f8e9;
+  border-left: 5px solid #4CAF50;
+  border-radius: 10px;
+}
+
+/* Estilizando o footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* Estilizando o link "Início" para ficar flutuando */
+nav a {
+    position: fixed;
+    top: 24px;  /* Distância do topo */
+    right:20px; /* Distância da lateral esquerda */
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo semitransparente */
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    border-radius: 15px;
+    text-decoration: none;
+    z-index: 100; /* Garante que o link fique sobre outros elementos */
+}
+
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Efeito hover no fundo */
+    color: #f4a261; /* Cor do texto ao passar o mouse */
+
+}
+
+/* Estilos padrão para desktop */
+body {
+    font-size: 16px;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  /* Para telas menores que 768px (como celulares) */
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px; /* Ajuste o tamanho da fonte */
+    }
+  
+    h1 {
+      font-size: 2em; /* Reduza o tamanho do título */
+    }
+  
+    img {
+      width: 100%; /* Imagens ficam mais flexíveis */
+      height: auto; /* Mantém a proporção */
+    }
+  }
+  /* Consultas de Mídia para telas maiores (computadores e laptops) */
+@media (min-width: 1024px) {
+  body {
+      font-size: 16px; /* Ajustando a base do texto */
+  }
+
+  header h1 {
+      font-size: 2.5rem; /* Tamanho maior para desktops */
+  }
+
+  nav ul li a {
+      font-size: 1.1rem;
+  }
+
+  #sobre h2 {
+      font-size: 3rem; /* Título maior para telas grandes */
+  }
+
+  #sobre p {
+      font-size: 1.4rem;
+  }
+
+  .frase-chave {
+      font-size: 1.8rem; /* Tamanho maior para a frase chave */
+  }
+}
+
+/* Consultas de Mídia para telas muito grandes (monitores grandes, telas de 1920px em diante) */
+@media (min-width: 1600px) {
+  body {
+      font-size: 18px; /* Aumentando o tamanho do texto em telas muito grandes */
+  }
+
+  header h1 {
+      font-size: 3rem;
+  }
+
+  nav ul li a {
+      font-size: 1.3rem;
+  }
+
+  #sobre h2 {
+      font-size: 3.5rem; /* Ajustando título */
+  }
+
+  #sobre p {
+      font-size: 1.5rem;
+  }
+
+  .frase-chave {
+      font-size: 2rem;
+  }
+}

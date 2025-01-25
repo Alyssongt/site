@@ -1,0 +1,235 @@
+
+.seja-bem-vindo {
+    text-align: left;    /* Alinha o texto à esquerda */
+    margin-left: 20px;   /* Adiciona um pequeno espaço à esquerda, se necessário */
+    left: 6px;
+
+}
+.creditos {
+    position: fixed;
+    bottom: 5px;  /* Distância do fundo da página */
+    left: 6px;    /* Distância da borda esquerda */
+    font-size: 12px; /* Tamanho da fonte pequeno */
+    color: #888;   /* Cor do texto, um tom mais suave */
+    z-index: 1000; /* Garante que o texto fique acima de outros elementos */
+}
+
+.creditos a {
+    color: #2600ff;  /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+.creditos a:hover {
+    color: #000000;  /* Cor do link ao passar o mouse */
+}
+
+
+/* RESET: Remove margens e padding de todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CORPO DA PÁGINA */
+body {
+    font-family: Arial, sans-serif;  /* Fonte padrão */
+    background-color:#ffffff;       /* Cor de fundo */
+    color: #333;                     /* Cor do texto */
+    margin: 0;                        /* Remove margens */
+    padding: 0;                       /* Remove preenchimentos */
+    min-height: 100vh;                /* Garante que o conteúdo ocupe toda a altura da janela */
+    display: flex;                    /* Flexbox para organizar o conteúdo */
+    flex-direction: column;           /* Organiza os elementos de cima para baixo */
+}
+
+/* ESTILO PARA O CABEÇALHO */
+header {
+    background-image: url('foto1.jpeg');  /* Imagem de fundo */
+    background-size: cover;              /* A imagem cobre toda a área */
+    background-position: center;         /* Centraliza a imagem */
+    height: 350px;                       /* Altura do cabeçalho */
+    text-align: center;                  /* Alinha o conteúdo ao centro */
+    display: flex;
+    justify-content: center;             /* Centraliza o conteúdo horizontalmente */
+    align-items: center;                 /* Centraliza o conteúdo verticalmente */
+    position: relative;     
+}
+
+/* LOGO NO CABEÇALHO */
+header .logo img {
+    max-width: 300px;          /* Tamanho máximo da logo */
+    height: 300px;             /* Altura da logo */
+    border-radius: 100%;       /* Torna a imagem redonda */
+    object-fit: cover;         /* A imagem se ajusta mantendo a proporção */
+    z-index: 1;                /* Garante que a logo fique sobre a imagem */
+    margin-left: -557px;       /* Ajuste para mover a logo */
+}
+
+header .logo {
+    border-radius: 100%;       /* Logo redonda */
+    margin-top: 57px;           /* Ajuste para o posicionamento vertical */
+}
+
+/* NAVEGAÇÃO */
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;                    /* Espaçamento entre os links */
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);          /* Cor dos links */
+    text-decoration: none;        /* Remove o sublinhado */
+    font-size: 14px;              /* Tamanho da fonte */
+    transition: color 0.3s ease-in-out;  /* Efeito de transição na cor */
+}
+
+nav ul li a:hover {
+    color: #f6ace5;                  /* Cor quando passar o mouse */
+}
+
+/* ESTILOS DAS SEÇÕES */
+section {
+    padding: 45px;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #000000;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+
+
+/* RODAPÉ */
+footer {
+    background-color: #000000;         /* Cor de fundo escura */
+    color: rgb(255, 255, 255);  
+    text-align: center;                /* Alinha o texto no centro */
+    padding: 11px;                     /* Espaçamento interno */
+    width: 100%;     
+    margin-top: 600px;                  /* Ocupa toda a largura */
+}
+
+/* ESTILO PARA O TEXTO NO RODAPÉ */
+footer p {
+    font-size: 12px;                   /* Tamanho da fonte */
+    font-weight: bold;                 /* Deixa o texto em negrito */
+    text-transform: uppercase;         /* Transforma o texto em maiúsculas */
+    letter-spacing: 2px;               /* Espaçamento entre as letras */
+    margin: 15px 0;
+    transition: color 0.3s ease, transform 0.3s ease;  /* Efeito de transição no texto */
+}
+
+footer p:hover {
+    color: #f88dcd;                    /* Cor dourada para dar destaque */
+    transform: scale(1.1);             /* Aumenta ligeiramente o tamanho do texto */
+}
+
+/* ESTILO DO LINK DO INSTAGRAM */
+.instagram-link {
+    color: #0040ff;                    /* Cor do link */
+    font-size: 18px;                   /* Tamanho do texto */
+    text-decoration: none;             /* Remove o sublinhado */
+    font-weight: bold;                 /* Deixa o texto em negrito */
+    text-transform: capitalize;        /* Capitaliza a primeira letra de cada palavra */
+}
+
+.instagram-link:hover {
+    color: #ff0055;                    /* Cor do link ao passar o mouse */
+    transition: color 0.3s ease-in-out; /* Transição suave */
+}
+
+/* LISTA DE REDES SOCIAIS NO RODAPÉ */
+footer ul {
+    list-style-type: none;             /* Remove os pontos da lista */
+    padding: 0;                        /* Remove o preenchimento da lista */
+    display: center;
+    justify-content: center;           /* Centraliza os links */
+    gap: 70px;      
+    margin: 7;                    /* Espaçamento entre os itens */
+}
+
+footer ul li {
+    display: inline-flex;
+    align-items: center;             /* Exibe os itens da lista em linha */
+}
+
+footer ul li a {
+    color: rgb(255, 255, 255);         /* Cor dos links */
+    text-decoration: none;             /* Remove o sublinhado */
+    font-size: 15px;                   /* Tamanho do texto */
+    transition: color 0.3s ease-in-out; /* Efeito de transição na cor */
+}
+
+footer ul li a:hover {
+    color: #FF5733;                    /* Cor quando passar o mouse */
+}
+
+/* CONTATO FIXO NO CANTO DA TELA */
+.contato-fixo {
+    position: fixed;
+    bottom: -13px;                       /* Distância do fundo da tela */
+    right: 10px;                        /* Distância da borda direita */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo escuro e translúcido */
+    color: white;                       /* Texto branco */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;                    /* Tamanho da fonte pequeno */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    width: auto;
+}
+
+.contato-fixo ul {
+    list-style: none;
+    margin: 4;
+    padding: 0;
+}
+
+.contato-fixo li {
+    margin-bottom: 5px;
+}
+
+.contato-fixo strong {
+    color: #ffd900;                    /* Cor dourada para o texto forte */
+}
+
+/* RESPONSIVIDADE PARA DISPOSITIVOS MÓVEIS */
+@media screen and (max-width: 768px) {
+
+    /* Ajuste da logo no cabeçalho */
+    header {
+        text-align: center;
+        padding: 15px;
+    }
+
+    header .logo img {
+        max-width: 80px; /* Logo menor em dispositivos móveis */
+        height: 80px;
+    }
+
+    /* Navegação em telas pequenas */
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}

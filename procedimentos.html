@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procedimentos</title>
+    <link rel="stylesheet" href="procedimentos.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <img src="foto6.jpeg" alt="Estética Profissional" class="carousel-img" id="img1">
+            <img src="foto5.jpeg" alt="Estética Profissional" class="carousel-img" id="img2">
+            <img src="foto4.jpeg" alt="Estética Profissional" class="carousel-img" id="img3">
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li> <!-- Link para index.html -->
+        </ul>
+    </nav>
+
+    <section id="procedimentos">
+        <h2>Procedimentos</h2>
+        <p>Veja nossos procedimentos com as imagens abaixo.</p>
+        
+        <!-- Contêiner de navegação das imagens -->
+        <div class="carousel-container">
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <div class="carousel">
+                <img src="foto6.jpeg" alt="Estética Profissional" class="carousel-img" id="img1">
+                <img src="foto5.jpeg" alt="Estética Profissional" class="carousel-img" id="img2">
+                <img src="foto4.jpeg" alt="Estética Profissional" class="carousel-img" id="img3">
+            </div>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </section>
+
+    <script src="procedimentos.js"></script>
+
+</body>
+</html>
